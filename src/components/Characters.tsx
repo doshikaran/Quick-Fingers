@@ -13,9 +13,9 @@ const Characters = ({ actual, expected }: Props) => {
   return (
     <span
       className={cn({
-        "text-red-500": !isCorrect && !isWhiteSpace,
-        " text-green-500": isCorrect && !isWhiteSpace,
-        "bg-red-500/50": !isCorrect && isWhiteSpace,
+        "text-red-500 text-sm mb-5": !isCorrect && !isWhiteSpace,
+        " text-green-500 text-sm mb-5": isCorrect && !isWhiteSpace,
+        "bg-red-500/50 text-sm mb-5": !isCorrect && isWhiteSpace,
       })}
     >
       {expected}

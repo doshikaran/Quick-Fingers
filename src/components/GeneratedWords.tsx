@@ -2,7 +2,7 @@
 const GeneratedWords = ({ words }: { words: string }) => {
     return (
       <div
-        className="text-xl text-black mt-10"
+        className=" text-sm text-black mt-10"
       >
         {words}
       </div>

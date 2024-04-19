@@ -14,7 +14,7 @@ const App = () => {
       <Container>
         <GeneratedWords key={words} words={words} />
         <UserTypings
-          className="text-xl absolute"
+          className="text-xl absolute mb-14"
           words={words}
           userInput={typed}
         />
@@ -35,7 +35,7 @@ const App = () => {
 };
 const Container = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div className="relative text-3xl max-w-xl leading-relaxed break-all mt-3">
+    <div className="relative text-3xl max-w-xl leading-relaxed break-all mt-3 mb-10">
       {children}
     </div>
   );
